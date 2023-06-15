@@ -5,7 +5,7 @@ import cvzone
 import math
 from sort import *
 
-cap = cv2.VideoCapture("../Videos/people.mp4")  # For Video
+cap = cv2.VideoCapture("../Videos/escalator1.mp4")  # For Video
 
 model = YOLO("../Yolo-Weights/yolov8l.pt")
 
@@ -22,22 +22,24 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               ]
 
 mask = cv2.imread("mask.png")
+mask1 = cv2.imread("mask1.png")
 
 # Tracking
 tracker = Sort(max_age=20, min_hits=3, iou_threshold=0.3)
 
-limitsUp = [103, 161, 296, 161]
-limitsDown = [527, 489, 735, 489]
+limitsUp = [1015, 161, 1150, 161]
+limitsDown = [1550, 489, 1685, 489]
 
 totalCountUp = []
 totalCountDown = []
 
 while True:
     success, img = cap.read()
-    imgRegion = cv2.bitwise_and(img, mask)
+    imgRegion = cv2.bitwise_and(img, mask1)
 
     imgGraphics = cv2.imread("graphics.png", cv2.IMREAD_UNCHANGED)
-    img = cvzone.overlayPNG(img, imgGraphics, (730, 260))
+    img = cvzone.overlayPNG(img, imgGraphics, (0, 0))  # or any other coordinates that meet your needs
+
     results = model(imgRegion, stream=True)
 
     detections = np.empty((0, 5))
@@ -91,8 +93,8 @@ while True:
                 totalCountDown.append(id)
                 cv2.line(img, (limitsDown[0], limitsDown[1]), (limitsDown[2], limitsDown[3]), (0, 255, 0), 5)
     # # cvzone.putTextRect(img, f' Count: {len(totalCount)}', (50, 50))
-    cv2.putText(img,str(len(totalCountUp)),(929,345),cv2.FONT_HERSHEY_PLAIN,5,(139,195,75),7)
-    cv2.putText(img,str(len(totalCountDown)),(1191,345),cv2.FONT_HERSHEY_PLAIN,5,(50,50,230),7)
+    cv2.putText(img, str(len(totalCountUp)), (200, 90), cv2.FONT_HERSHEY_PLAIN, 5, (139, 195, 75), 7)
+    cv2.putText(img, str(len(totalCountDown)), (450, 90), cv2.FONT_HERSHEY_PLAIN, 5, (50, 50, 230), 7)
 
     cv2.imshow("Image", img)
     # cv2.imshow("ImageRegion", imgRegion)
