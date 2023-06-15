@@ -5,16 +5,14 @@ The goal is to use the latest version of YOLOv8 to perform different kind of tas
 ## Project 1 - CCTV Vehicle Counter and Speed Limiter
 This project aims to count the different types of vehicles present in traffic (motorcycle, bus, truck, or cars) and also determine the speed of each vehicle.
 
-[![Watch the video](https://img.youtube.com/vi/z8gNm_GYl5k/maxresdefault.jpg)](https://youtu.be/z8gNm_GYl5k)
+[![Watch the video](https://img.youtube.com/vi/gGShMfXioao/maxresdefault.jpg)](https://youtu.be/gGShMfXioao)
 
 
 
 # Project 2 - CCTV People Counter
 This project aim to count how many people are you going down or up an escalator
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1pfwbHx9cQHtFCLFEldNCgx_DgOWmHmi5/preview" type="video/mp4">
-</video>
+[![Watch the video](https://img.youtube.com/vi/-J-fkl5EFPA/maxresdefault.jpg)](https://youtu.be/-J-fkl5EFPA)
 
 
 # Project 3 - COCO dataset YOLO object detection
@@ -27,13 +25,10 @@ ROMIE is now able to detect the staff around him and determine if they are weari
 	- protective mask
 	- construction flashy jacket
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1V6-ptFzNiT7m-vEdwkbZXPUcNAnDH7-m/preview" type="video/mp4">
-</video>
+[![Watch the video](https://img.youtube.com/vi/z8gNm_GYl5k/maxresdefault.jpg)](https://youtu.be/z8gNm_GYl5k)
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1PvjI-w624_cldSH81tunnEq3OxbwJSHu/preview" type="video/mp4">
-</video>
+[![Watch the video](https://img.youtube.com/vi/XRw20kjqQEY/maxresdefault.jpg)](https://youtu.be/XRw20kjqQEY)
+
 
 
 ROMIE is also able to detect different types of rocks/stones during its journey.
