@@ -44,7 +44,7 @@ This was performed by training the data from (source) using the training functio
 
 Results for security equipment training data:
 
-Results for rocks/stone training data:
+**Results for rocks/stone training data:**
 
 ![Image](https://drive.google.com/uc?export=view&id=1BTbNqBstNi5ntPXQ8fifuriDoKChDfBF)
 
@@ -59,6 +59,20 @@ Results for rocks/stone training data:
 ![Image](https://drive.google.com/uc?export=view&id=14EMzrgbfsN_ZwaX7yh9IH58lr1mELD34)
 
 ![Image](https://drive.google.com/uc?export=view&id=11pdqUv7N1ZA89eXHBA0-BmXwX_ty2LXR)
+
+<img src="https://drive.google.com/uc?export=view&id=1BTbNqBstNi5ntPXQ8fifuriDoKChDfBF" width="200" height="200"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1I-nvnexMCRAyOWUNdKh0EAV5sBnvJdaG" width="200" height="200"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1OK7OcR_oH9xsvfC8s8bf4cFiLrtkH2Wt" width="200" height="200"/>
+
+<img src="https://drive.google.com/uc?export=view&id=16Z56cAtGPFje-lvCDEo2CD1_V0p0U2Nq" width="200" height="200"/>
+
+<img src="https://drive.google.com/uc?export=view&id=1Jtcm_Ciwx3tKoOBe4fPjuZdaDLy-XOzy" width="200" height="200"/>
+
+<img src="https://drive.google.com/uc?export=view&id=14EMzrgbfsN_ZwaX7yh9IH58lr1mELD34" width="200" height="200"/>
+
+<img src="https://drive.google.com/uc?export=view&id=11pdqUv7N1ZA89eXHBA0-BmXwX_ty2LXR" width="200" height="200"/>
 
 
 Everything can be performed in the jupyter notebook.
