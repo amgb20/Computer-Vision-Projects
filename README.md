@@ -34,24 +34,32 @@ ROMIE is now able to detect the staff around him and determine if they are weari
 </video>
 
 
-ROMIE is also able to detect different kind of rocks/stone during its journey
-![alt text](https://drive.google.com/uc?export=view&id=1ELVQb4q7AXR96gIBUR2LPuyFy0JgXjEQ)
-![alt text](https://drive.google.com/uc?export=view&id=1fgXkiNbcWpEqdqHWaJaCWLjnsp_-he1h)
+ROMIE is also able to detect different types of rocks/stones during its journey.
 
+![Image](https://drive.google.com/uc?export=view&id=1ELVQb4q7AXR96gIBUR2LPuyFy0JgXjEQ)
 
-This was performed by training the data from (source) using the training function from YOLOv8. You can see under the different results obtained:
+![Image](https://drive.google.com/uc?export=view&id=1fgXkiNbcWpEqdqHWaJaCWLjnsp_-he1h)
 
-Results for security equipement training data:
+This was performed by training the data from (source) using the training function from YOLOv8. You can see the different results obtained:
 
+Results for security equipment training data:
 
 Results for rocks/stone training data:
-![alt text](https://drive.google.com/uc?export=view&id=1BTbNqBstNi5ntPXQ8fifuriDoKChDfBF)
-![alt text](https://drive.google.com/uc?export=view&id=1I-nvnexMCRAyOWUNdKh0EAV5sBnvJdaG)
-![alt text](https://drive.google.com/uc?export=view&id=1OK7OcR_oH9xsvfC8s8bf4cFiLrtkH2Wt)
-![alt text](https://drive.google.com/uc?export=view&id=16Z56cAtGPFje-lvCDEo2CD1_V0p0U2Nq)
-![alt text](https://drive.google.com/uc?export=view&id=1Jtcm_Ciwx3tKoOBe4fPjuZdaDLy-XOzy)
-![alt text](https://drive.google.com/uc?export=view&id=14EMzrgbfsN_ZwaX7yh9IH58lr1mELD34)
-![alt text](https://drive.google.com/uc?export=view&id=11pdqUv7N1ZA89eXHBA0-BmXwX_ty2LXR)
+
+![Image](https://drive.google.com/uc?export=view&id=1BTbNqBstNi5ntPXQ8fifuriDoKChDfBF)
+
+![Image](https://drive.google.com/uc?export=view&id=1I-nvnexMCRAyOWUNdKh0EAV5sBnvJdaG)
+
+![Image](https://drive.google.com/uc?export=view&id=1OK7OcR_oH9xsvfC8s8bf4cFiLrtkH2Wt)
+
+![Image](https://drive.google.com/uc?export=view&id=16Z56cAtGPFje-lvCDEo2CD1_V0p0U2Nq)
+
+![Image](https://drive.google.com/uc?export=view&id=1Jtcm_Ciwx3tKoOBe4fPjuZdaDLy-XOzy)
+
+![Image](https://drive.google.com/uc?export=view&id=14EMzrgbfsN_ZwaX7yh9IH58lr1mELD34)
+
+![Image](https://drive.google.com/uc?export=view&id=11pdqUv7N1ZA89eXHBA0-BmXwX_ty2LXR)
+
 
 Everything can be performed in the jupyter notebook.
 	
