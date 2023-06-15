@@ -5,7 +5,8 @@ The goal is to use the latest version of YOLOv8 to perform different kind of tas
 ## Project 1 - CCTV Vehicle Counter and Speed Limiter
 This project aims to count the different types of vehicles present in traffic (motorcycle, bus, truck, or cars) and also determine the speed of each vehicle.
 
-[![Alternate Text](https://img.youtube.com/vi/gGShMfXioao&ab_channel=VINBENzerozerosept/0.jpg)](https://www.youtube.com/watch?v=gGShMfXioao&ab_channel=VINBENzerozerosept)
+[![Watch the video](https://img.youtube.com/vi/z8gNm_GYl5k/maxresdefault.jpg)](https://youtu.be/z8gNm_GYl5k)
+
 
 
 # Project 2 - CCTV People Counter
