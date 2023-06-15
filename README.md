@@ -2,12 +2,10 @@
 This repository is a series of Computer Vision Projects merged from different tutorials articles or videos.
 The goal is to use the latest version of YOLOv8 to perform different kind of tasks.
 
-# Project 1 - CCTV Vehicle Counter and Speed Limiter
-This project aim to count the different kind of vehicle present in a traffic (moto, bus, truck or cars) and also determining the speed of each vehicle.
+## Project 1 - CCTV Vehicle Counter and Speed Limiter
+This project aims to count the different types of vehicles present in traffic (motorcycle, bus, truck, or cars) and also determine the speed of each vehicle.
 
-<video width="320" height="240" controls>
-  <source src="https://drive.google.com/file/d/1KocxibqCY4l5EoyjPzNW_IFM3CRlyFtF/preview" type="video/mp4">
-</video>
+[Watch Video](https://drive.google.com/file/d/1KocxibqCY4l5EoyjPzNW_IFM3CRlyFtF/preview)
 
 # Project 2 - CCTV People Counter
 This project aim to count how many people are you going down or up an escalator
